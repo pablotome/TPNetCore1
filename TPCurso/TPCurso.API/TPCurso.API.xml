@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TPCurso.API</name>
+    </assembly>
+    <members>
+        <member name="T:TPCurso.API.Controllers.CategoriasController">
+            <summary>
+            The process for all controller's actions is:
+              1. Log the invocation for method.
+              2. Create the instance for response according to action(Paged, list or single).
+              3. Perform access to database through DbContext instance.
+              4. If invocation for repository fails, set DidError property as true and set ErrorMessage property with: There was an internal error, please contact to technical support., because it isn't recommended to expose error details in response, it's better to save all exception details in log file.
+              5. Return result as Http response.
+            </summary>
+        </member>
+        <member name="M:TPCurso.API.Controllers.CategoriasController.GetCategoriasAsync(System.String)">
+            <summary>
+            Devuelve los socios según los filtros indicados
+            </summary>
+            <param name="pageSize">Page size</param>
+            <param name="pageNumber">Page number</param>
+            <param name="lastEditedBy">Last edit by (user id)</param>
+            <param name="colorID">Color id</param>
+            <param name="outerPackageID">Outer package id</param>
+            <param name="supplierID">Supplier id</param>
+            <param name="unitPackageID">Unit package id</param>
+            <returns>A response with stock items list</returns>
+            <response code="200">Returns the stock items list</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="T:TPCurso.API.Controllers.SociosController">
+            <summary>
+            The process for all controller's actions is:
+              1. Log the invocation for method.
+              2. Create the instance for response according to action(Paged, list or single).
+              3. Perform access to database through DbContext instance.
+              4. If invocation for repository fails, set DidError property as true and set ErrorMessage property with: There was an internal error, please contact to technical support., because it isn't recommended to expose error details in response, it's better to save all exception details in log file.
+              5. Return result as Http response.
+            </summary>
+        </member>
+        <member name="M:TPCurso.API.Controllers.SociosController.GetSociosAsync(System.Int32,System.Int32,System.String)">
+            <summary>
+            Devuelve los socios según los filtros indicados
+            </summary>
+            <param name="pageSize">Page size</param>
+            <param name="pageNumber">Page number</param>
+            <param name="lastEditedBy">Last edit by (user id)</param>
+            <param name="colorID">Color id</param>
+            <param name="outerPackageID">Outer package id</param>
+            <param name="supplierID">Supplier id</param>
+            <param name="unitPackageID">Unit package id</param>
+            <returns>A response with stock items list</returns>
+            <response code="200">Returns the stock items list</response>
+            <response code="500">If there was an internal server error</response>
+        </member>
+        <member name="T:TPCurso.API.Controllers.ISingleResponse`1">
+            <summary>
+            ISingleResponse represents a response for a single entity.
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="T:TPCurso.API.Controllers.IListResponse`1">
+            <summary>
+            IListResponse represents a response with a list, for example all shipping to existing order without paging.
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="T:TPCurso.API.Controllers.IPagedResponse`1">
+            <summary>
+            IPagedResponse represents a response with pagination, for example all orders in a date range.
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="T:TPCurso.API.Controllers.ResponseExtensions">
+            <summary>
+            ResponseExtensions class contains extension methods to convert a response in a Http response, these methods return InternalServerError (500) status if an error occurs, OK (200) if it's OK and NotFound (404) if an entity does not exist in database or NoContent (204) for list responses without model.
+            </summary>
+        </member>
+        <member name="T:TPCurso.API.Models.IQueryableExtensions">
+            <summary>
+            IQueryableExtensions contains extension methods for IQueryable, to add paging feature.
+            </summary>
+        </member>
+        <member name="T:TPCurso.API.Models.Socio">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
