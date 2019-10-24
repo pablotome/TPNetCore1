@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPCurso.API", "TPCurso.API\TPCurso.API.csproj", "{BAC9057B-801E-4EBC-ADB0-9D697230AEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPCurso.API.UnitTest", "TPCurso.API.UnitTest\TPCurso.API.UnitTest.csproj", "{8792A366-F061-4F96-965D-24815232A1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC9057B-801E-4EBC-ADB0-9D697230AEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC9057B-801E-4EBC-ADB0-9D697230AEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC9057B-801E-4EBC-ADB0-9D697230AEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC9057B-801E-4EBC-ADB0-9D697230AEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8792A366-F061-4F96-965D-24815232A1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8792A366-F061-4F96-965D-24815232A1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8792A366-F061-4F96-965D-24815232A1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8792A366-F061-4F96-965D-24815232A1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B7C98A8-378F-4E53-8761-9DC985B9FBFF}
+	EndGlobalSection
+EndGlobal

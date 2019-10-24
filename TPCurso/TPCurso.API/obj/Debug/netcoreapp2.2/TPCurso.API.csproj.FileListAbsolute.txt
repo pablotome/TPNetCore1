@@ -1,0 +1,15 @@
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.deps.json
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.runtimeconfig.json
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.runtimeconfig.dev.json
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.dll
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.pdb
+H:\TPNetCore\TPCurso\TPCurso.API\bin\Debug\netcoreapp2.2\TPCurso.API.xml
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.csproj.CoreCompileInputs.cache
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.RazorAssemblyInfo.cache
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.RazorAssemblyInfo.cs
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.AssemblyInfoInputs.cache
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.AssemblyInfo.cs
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.RazorTargetAssemblyInfo.cache
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.dll
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.pdb
+H:\TPNetCore\TPCurso\TPCurso.API\obj\Debug\netcoreapp2.2\TPCurso.API.csprojAssemblyReference.cache
